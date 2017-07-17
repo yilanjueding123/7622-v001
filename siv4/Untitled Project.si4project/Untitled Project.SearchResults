@@ -1,0 +1,10 @@
+---- MOTOR_VIBRATION Matches (9 in 3 files) ----
+LED_pin_init in ap_peripheral_handling.c (F:\work\item\7622\programe\application\task_peripheral_handling\src) : 	gpio_init_io(MOTOR_VIBRATION, GPIO_OUTPUT);
+LED_pin_init in ap_peripheral_handling.c (F:\work\item\7622\programe\application\task_peripheral_handling\src) :     gpio_set_port_attribute(MOTOR_VIBRATION, ATTRIBUTE_HIGH);
+LED_pin_init in ap_peripheral_handling.c (F:\work\item\7622\programe\application\task_peripheral_handling\src) : 	gpio_write_io(MOTOR_VIBRATION, DATA_LOW);
+moto_vibration_on in ap_peripheral_handling.c (F:\work\item\7622\programe\application\task_peripheral_handling\src) : 	gpio_write_io(MOTOR_VIBRATION, DATA_HIGH);
+moto_vibration_off in ap_peripheral_handling.c (F:\work\item\7622\programe\application\task_peripheral_handling\src) : 	gpio_write_io(MOTOR_VIBRATION, DATA_LOW);
+customer.h (F:\work\item\7622\programe\project\turnkey_gpcv1248_cvr\inc) line 447 : #define MOTOR_VIBRATION					IO_E7
+drv_l1_init in drv_l1_init.c (F:\work\item\7622\programe\driver_l1\common\src) : //	gpio_init_io(MOTOR_VIBRATION, GPIO_OUTPUT);
+drv_l1_init in drv_l1_init.c (F:\work\item\7622\programe\driver_l1\common\src) : //    gpio_set_port_attribute(MOTOR_VIBRATION, ATTRIBUTE_HIGH);
+drv_l1_init in drv_l1_init.c (F:\work\item\7622\programe\driver_l1\common\src) : //	gpio_write_io(MOTOR_VIBRATION, DATA_LOW);
